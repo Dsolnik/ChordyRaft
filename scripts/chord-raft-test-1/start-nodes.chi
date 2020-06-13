@@ -1,0 +1,6 @@
+start -n 100:R1,R2,R3 
+start -n 100:R2,R1,R3 
+start -n 100:R3,R1,R2 
+start -n 300:R10,R11,R12 
+start -n 300:R11,R10,R12 
+start -n 300:R12,R10,R11 

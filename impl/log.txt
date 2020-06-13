@@ -1,0 +1,525 @@
+Node R2: became leader... Starting up Chord Node for addr 100
+Chord 100: starting up because R2 leader 
+Raft R2 : Getting key successor
+Raft R2 : Getting key predecessor
+Raft R2 : Getting key finger_table[0]
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 0 setting successor to 100
+Raft R3 : Applying log entry 0 setting successor to 100
+Raft R1 : Applying log entry 0 setting successor to 100
+Raft R2 : Reconciling log with R3 complete
+Raft R2 : Applying log entry 1 setting finger_table[0] to 100
+Raft R1 : Applying log entry 1 setting finger_table[0] to 100
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 2 setting finger_table[1] to 100
+Raft R1 : Applying log entry 2 setting finger_table[1] to 100
+Raft R3 : Applying log entry 1 setting finger_table[0] to 100
+Raft R3 : Applying log entry 2 setting finger_table[1] to 100
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 3 setting finger_table[2] to 100
+Raft R3 : Applying log entry 3 setting finger_table[2] to 100
+Raft R2 : Reconciling log with R3 complete
+Raft R1 : Applying log entry 3 setting finger_table[2] to 100
+Raft R2 : Applying log entry 4 setting finger_table[3] to 100
+Raft R1 : Applying log entry 4 setting finger_table[3] to 100
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 5 setting finger_table[4] to 100
+Raft R1 : Applying log entry 5 setting finger_table[4] to 100
+Raft R3 : Applying log entry 4 setting finger_table[3] to 100
+Raft R3 : Applying log entry 5 setting finger_table[4] to 100
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 6 setting finger_table[5] to 100
+Raft R3 : Applying log entry 6 setting finger_table[5] to 100
+Raft R1 : Applying log entry 6 setting finger_table[5] to 100
+Raft R2 : Reconciling log with R3 complete
+Raft R2 : Applying log entry 7 setting finger_table[6] to 100
+Raft R1 : Applying log entry 7 setting finger_table[6] to 100
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 8 setting finger_table[7] to 100
+Raft R1 : Applying log entry 8 setting finger_table[7] to 100
+Raft R3 : Applying log entry 7 setting finger_table[6] to 100
+Raft R3 : Applying log entry 8 setting finger_table[7] to 100
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 9 setting finger_table[8] to 100
+Raft R3 : Applying log entry 9 setting finger_table[8] to 100
+Raft R1 : Applying log entry 9 setting finger_table[8] to 100
+Raft R2 : Reconciling log with R3 complete
+Raft R2 : Applying log entry 10 setting finger_table[9] to 100
+Raft R2 : Reconciling log with R1 complete
+Raft R1 : Applying log entry 10 setting finger_table[9] to 100
+Raft R3 : Applying log entry 10 setting finger_table[9] to 100
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Node R10: became leader... Starting up Chord Node for addr 300
+Chord 300: starting up because R10 leader 
+Raft R10 : Getting key successor
+Raft R10 : Getting key predecessor
+Raft R10 : Getting key finger_table[0]
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 0 setting successor to 100
+Raft R12 : Applying log entry 0 setting successor to 100
+Raft R11 : Applying log entry 0 setting successor to 100
+Raft R10 : Reconciling log with R12 complete
+Raft R10 : Applying log entry 1 setting finger_table[0] to 100
+Raft R11 : Applying log entry 1 setting finger_table[0] to 100
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 2 setting finger_table[1] to 100
+Raft R11 : Applying log entry 2 setting finger_table[1] to 100
+Raft R12 : Applying log entry 1 setting finger_table[0] to 100
+Raft R12 : Applying log entry 2 setting finger_table[1] to 100
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 3 setting finger_table[2] to 100
+Raft R12 : Applying log entry 3 setting finger_table[2] to 100
+Raft R11 : Applying log entry 3 setting finger_table[2] to 100
+Raft R10 : Reconciling log with R12 complete
+Raft R10 : Applying log entry 4 setting finger_table[3] to 100
+Raft R11 : Applying log entry 4 setting finger_table[3] to 100
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 5 setting finger_table[4] to 100
+Raft R11 : Applying log entry 5 setting finger_table[4] to 100
+Raft R12 : Applying log entry 4 setting finger_table[3] to 100
+Raft R12 : Applying log entry 5 setting finger_table[4] to 100
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 6 setting finger_table[5] to 100
+Raft R12 : Applying log entry 6 setting finger_table[5] to 100
+Raft R10 : Reconciling log with R12 complete
+Raft R11 : Applying log entry 6 setting finger_table[5] to 100
+Raft R10 : Applying log entry 7 setting finger_table[6] to 100
+Raft R11 : Applying log entry 7 setting finger_table[6] to 100
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 8 setting finger_table[7] to 100
+Raft R11 : Applying log entry 8 setting finger_table[7] to 100
+Raft R12 : Applying log entry 7 setting finger_table[6] to 100
+Raft R12 : Applying log entry 8 setting finger_table[7] to 100
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 9 setting finger_table[8] to 100
+Raft R12 : Applying log entry 9 setting finger_table[8] to 100
+Raft R10 : Reconciling log with R12 complete
+Raft R10 : Applying log entry 10 setting finger_table[9] to 100
+Raft R11 : Applying log entry 9 setting finger_table[8] to 100
+Raft R10 : Reconciling log with R11 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 11 setting successor to 300
+Raft R2 : Reconciling log with R3 complete
+Raft R1 : Applying log entry 11 setting successor to 300
+Raft R3 : Applying log entry 11 setting successor to 300
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 12 setting predecessor to 300
+Raft R2 : Reconciling log with R3 complete
+Raft R11 : Applying log entry 10 setting finger_table[9] to 100
+Raft R12 : Applying log entry 10 setting finger_table[9] to 100
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R1 : Applying log entry 12 setting predecessor to 300
+Raft R3 : Applying log entry 12 setting predecessor to 300
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Node R20: became leader... Starting up Chord Node for addr 500
+Chord 500: starting up because R20 leader 
+Raft R20 : Getting key successor
+Raft R20 : Getting key predecessor
+Raft R20 : Getting key finger_table[0]
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 13 setting finger_table[0] to 300
+Raft R2 : Reconciling log with R3 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Applying log entry 0 setting successor to 100
+Raft R22 : Applying log entry 0 setting successor to 100
+Raft R23 : Applying log entry 0 setting successor to 100
+Raft R20 : Reconciling log with R22 complete
+Raft R21 : Applying log entry 0 setting successor to 100
+Raft R20 : Applying log entry 1 setting finger_table[0] to 100
+Raft R21 : Applying log entry 1 setting finger_table[0] to 100
+Raft R23 : Applying log entry 1 setting finger_table[0] to 100
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Applying log entry 2 setting finger_table[1] to 100
+Raft R23 : Applying log entry 2 setting finger_table[1] to 100
+Raft R21 : Applying log entry 2 setting finger_table[1] to 100
+Raft R20 : Reconciling log with R23 complete
+Raft R20 : Applying log entry 3 setting finger_table[2] to 100
+Raft R22 : Applying log entry 1 setting finger_table[0] to 100
+Raft R22 : Applying log entry 2 setting finger_table[1] to 100
+Raft R21 : Applying log entry 3 setting finger_table[2] to 100
+Raft R22 : Applying log entry 3 setting finger_table[2] to 100
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Applying log entry 4 setting finger_table[3] to 100
+Raft R22 : Applying log entry 4 setting finger_table[3] to 100
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Applying log entry 5 setting finger_table[4] to 100
+Raft R21 : Applying log entry 4 setting finger_table[3] to 100
+Raft R21 : Applying log entry 5 setting finger_table[4] to 100
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Applying log entry 6 setting finger_table[5] to 100
+Raft R21 : Applying log entry 6 setting finger_table[5] to 100
+Raft R22 : Applying log entry 5 setting finger_table[4] to 100
+Raft R22 : Applying log entry 6 setting finger_table[5] to 100
+Raft R20 : Reconciling log with R21 complete
+Raft R23 : Applying log entry 3 setting finger_table[2] to 100
+Raft R20 : Applying log entry 7 setting finger_table[6] to 100
+Raft R23 : Applying log entry 4 setting finger_table[3] to 100
+Raft R23 : Applying log entry 5 setting finger_table[4] to 100
+Raft R23 : Applying log entry 6 setting finger_table[5] to 100
+Raft R22 : Applying log entry 7 setting finger_table[6] to 100
+Raft R23 : Applying log entry 7 setting finger_table[6] to 100
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Applying log entry 8 setting finger_table[7] to 100
+Raft R21 : Applying log entry 7 setting finger_table[6] to 100
+Raft R21 : Applying log entry 8 setting finger_table[7] to 100
+Raft R23 : Applying log entry 8 setting finger_table[7] to 100
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Applying log entry 9 setting finger_table[8] to 100
+Raft R22 : Applying log entry 8 setting finger_table[7] to 100
+Raft R22 : Applying log entry 9 setting finger_table[8] to 100
+Raft R23 : Applying log entry 9 setting finger_table[8] to 100
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Applying log entry 10 setting finger_table[9] to 100
+Raft R21 : Applying log entry 9 setting finger_table[8] to 100
+Raft R20 : Reconciling log with R23 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R1 : Applying log entry 13 setting finger_table[0] to 300
+Raft R3 : Applying log entry 13 setting finger_table[0] to 300
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 14 setting predecessor to 500
+Raft R2 : Reconciling log with R3 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R21 : Applying log entry 10 setting finger_table[9] to 100
+Raft R22 : Applying log entry 10 setting finger_table[9] to 100
+Raft R23 : Applying log entry 10 setting finger_table[9] to 100
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R1 : Applying log entry 14 setting predecessor to 500
+Raft R3 : Applying log entry 14 setting predecessor to 500
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 15 setting finger_table[1] to 300
+Raft R3 : Applying log entry 15 setting finger_table[1] to 300
+Raft R1 : Applying log entry 15 setting finger_table[1] to 300
+Raft R2 : Reconciling log with R3 complete
+Raft R2 : Applying log entry 16 setting finger_table[2] to 300
+Raft R1 : Applying log entry 16 setting finger_table[2] to 300
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 11 setting predecessor to 100
+Raft R2 : Reconciling log with R1 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R2 : Applying log entry 17 setting finger_table[3] to 300
+Raft R3 : Applying log entry 16 setting finger_table[2] to 300
+Raft R3 : Applying log entry 17 setting finger_table[3] to 300
+Raft R2 : Reconciling log with R3 complete
+Raft R2 : Applying log entry 18 setting finger_table[4] to 300
+Raft R1 : Applying log entry 17 setting finger_table[3] to 300
+Raft R1 : Applying log entry 18 setting finger_table[4] to 300
+Raft R3 : Applying log entry 18 setting finger_table[4] to 300
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 19 setting finger_table[5] to 300
+Raft R3 : Applying log entry 19 setting finger_table[5] to 300
+Raft R2 : Reconciling log with R3 complete
+Raft R2 : Applying log entry 20 setting finger_table[6] to 300
+Raft R1 : Applying log entry 19 setting finger_table[5] to 300
+Raft R1 : Applying log entry 20 setting finger_table[6] to 300
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 21 setting finger_table[7] to 300
+Raft R3 : Applying log entry 20 setting finger_table[6] to 300
+Raft R3 : Applying log entry 21 setting finger_table[7] to 300
+Raft R2 : Reconciling log with R3 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R1 : Applying log entry 21 setting finger_table[7] to 300
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Raft R11 : Applying log entry 11 setting predecessor to 100
+Raft R12 : Applying log entry 11 setting predecessor to 100
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 12 setting successor to 500
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Applying log entry 11 setting predecessor to 300
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R11 : Applying log entry 12 setting successor to 500
+Raft R12 : Applying log entry 12 setting successor to 500
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R21 : Applying log entry 11 setting predecessor to 300
+Raft R22 : Applying log entry 11 setting predecessor to 300
+Raft R23 : Applying log entry 11 setting predecessor to 300
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Applying log entry 22 setting finger_table[8] to 500
+Raft R2 : Reconciling log with R3 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R1 : Applying log entry 22 setting finger_table[8] to 500
+Raft R3 : Applying log entry 22 setting finger_table[8] to 500
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 13 setting finger_table[0] to 500
+Raft R12 : Applying log entry 13 setting finger_table[0] to 500
+Raft R11 : Applying log entry 13 setting finger_table[0] to 500
+Raft R10 : Reconciling log with R12 complete
+Raft R10 : Applying log entry 14 setting finger_table[1] to 500
+Raft R11 : Applying log entry 14 setting finger_table[1] to 500
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 15 setting finger_table[2] to 500
+Raft R11 : Applying log entry 15 setting finger_table[2] to 500
+Raft R12 : Applying log entry 14 setting finger_table[1] to 500
+Raft R12 : Applying log entry 15 setting finger_table[2] to 500
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 16 setting finger_table[3] to 500
+Raft R12 : Applying log entry 16 setting finger_table[3] to 500
+Raft R11 : Applying log entry 16 setting finger_table[3] to 500
+Raft R10 : Reconciling log with R12 complete
+Raft R10 : Applying log entry 17 setting finger_table[4] to 500
+Raft R11 : Applying log entry 17 setting finger_table[4] to 500
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 18 setting finger_table[5] to 500
+Raft R11 : Applying log entry 18 setting finger_table[5] to 500
+Raft R12 : Applying log entry 17 setting finger_table[4] to 500
+Raft R12 : Applying log entry 18 setting finger_table[5] to 500
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Applying log entry 19 setting finger_table[6] to 500
+Raft R12 : Applying log entry 19 setting finger_table[6] to 500
+Raft R11 : Applying log entry 19 setting finger_table[6] to 500
+Raft R10 : Reconciling log with R12 complete
+Raft R10 : Applying log entry 20 setting finger_table[7] to 500
+Raft R10 : Reconciling log with R11 complete
+Raft R11 : Applying log entry 20 setting finger_table[7] to 500
+Raft R12 : Applying log entry 20 setting finger_table[7] to 500
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R2 : Reconciling log with R1 complete
+Raft R2 : Reconciling log with R3 complete
+NetworkNode 100:R2,R1,R3 :got command from client {'id': 1, 'key': 'die', 'value': 'die'}
+NetworkNode 100:R2,R1,R3 :got kill command from client {'id': 1, 'key': 'die', 'value': 'die'}
+Raft Node R2 No longer alive
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Node R1: became leader... Starting up Chord Node for addr 100
+Chord 100: starting up because R1 leader 
+Raft R1 : Getting key successor
+Raft R1 : Getting key predecessor
+Raft R1 : Getting key finger_table[0]
+Raft R1 : Getting key finger_table[1]
+Raft R1 : Getting key finger_table[2]
+Raft R1 : Getting key finger_table[3]
+Raft R1 : Getting key finger_table[4]
+Raft R1 : Getting key finger_table[5]
+Raft R1 : Getting key finger_table[6]
+Raft R1 : Getting key finger_table[7]
+Raft R1 : Getting key finger_table[8]
+Raft R1 : Getting key finger_table[9]
+Raft R1 : Reconciling log with R3 complete
+Raft R1 : Reconciling log with R3 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R1 : Reconciling log with R3 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R1 : Reconciling log with R3 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R1 : Reconciling log with R3 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+NetworkNode 100:R1,R2,R3 :got command from client {'id': 2, 'key': 'die', 'value': 'die'}
+NetworkNode 100:R1,R2,R3 :got kill command from client {'id': 2, 'key': 'die', 'value': 'die'}
+Raft Node R1 No longer alive
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+NetworkNode 300:R10,R11,R12 :got command from client {'id': 3, 'key': 'dan'}
+300:R10,R11,R12 got get with chord node available True
+Chord 300 : found node responsible for dan 100
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
+Raft R20 : Reconciling log with R21 complete
+Raft R20 : Reconciling log with R22 complete
+Raft R20 : Reconciling log with R23 complete
+Raft R10 : Reconciling log with R11 complete
+Raft R10 : Reconciling log with R12 complete
